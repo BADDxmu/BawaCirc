@@ -45,7 +45,6 @@ gmap_build -d chm13 chm13.fasta (latest version)
 java -jar ~/software/trcirit/trCirit_BSJ-1.0.1-SNAPSHOT.jar -i circ.fa -i2 ~/genome/chm13.bed -i3 chm13
 
 #### Use trCirit-ORF to find ORFs ####
-# Download Cufflinks and add the absolute path of gffread to the directory
 java -jar ~/software/trcirit/trCirit_ORF-1.0.1.jar -i circ_anno.gtf -g ~/genome/chm13.fasta
 ```
 
