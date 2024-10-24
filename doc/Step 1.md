@@ -1,4 +1,4 @@
-# CircRNA detection
+# Step 1: Search for circRNA and its corresponding ORFs
 
 1. Download SRA file
 
