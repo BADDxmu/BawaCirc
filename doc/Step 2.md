@@ -1,4 +1,4 @@
-# MS/MS spectrometry files with MaxQuant software v.2.0.2.0
+# Step 2: Look for translation evidence of backward translation proteins in mass spectrometry data.
 
 1. **Prepare Your Data**
 
@@ -16,7 +16,7 @@
 
 •	The data files will be added to the Raw files list, and each file will be assigned a unique experiment number.
 
-![p1](/Users/lvziwei/circRNA/反向翻译/github/p1.png)
+![p1](png/p1.png)
 
 **Group-Specific Parameters Tab:**
 
@@ -24,7 +24,7 @@
 
 •	Common enzyme settings include Trypsin, and common variable modifications include Oxidation (M) and Acetyl (Protein N-term).
 
-![p2](/Users/lvziwei/circRNA/反向翻译/github/p2.png)
+![p2](png/p2.png)
 
 **Global Parameters Tab:**
 
@@ -34,15 +34,15 @@
 
 •	In the “**Quantification**” section, you can set the labeling method (e.g., SILAC, TMT, iTRAQ).
 
-![p3](/Users/lvziwei/circRNA/反向翻译/github/p3.png)
+![p3](png/p3.png)
 
 •	“Match between runs” based on accurate m/z and retention time was enabled with a 0.7 min match time window and 20 min alignment time window.
 
-![p12](/Users/lvziwei/circRNA/反向翻译/github/p12.png)
+![p4](png/p4.png)
 
 •	Select the “**iBAQ**” option.
 
-![p15](/Users/lvziwei/circRNA/反向翻译/github/p15.png)
+![p5](png/p5.png)
 
 3. **Run MaxQuant**
 
@@ -50,7 +50,7 @@
 
 •	The run time may vary depending on the size of the data and the performance of your computer.
 
-![p13](/Users/lvziwei/circRNA/反向翻译/github/p13.png)
+![p6](png/p6.png)
 
 4. **Review Results**
 
