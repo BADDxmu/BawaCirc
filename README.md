@@ -4,7 +4,6 @@ The main sources of [BawaCirc](http://www.bio-add.org/BawaCirc) data come from t
 * Step 2: Look for translation evidence of backward translation proteins in mass spectrometry data.
 * Step 3: Searching for evidence of backward translation proteins being translated in Ribo-seq data.
 ## Requirement
-----
 This software is suitable for all unix-like system with java (version 11.0.13) installed.<br>
 Moreover, some already published softwares should be correctly installed in advance, and
 make sure they had been add to your system environment variables. The thirteen softwares are:<br>
