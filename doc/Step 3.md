@@ -1,4 +1,4 @@
-# Ribo-seq
+# Step 3: Searching for evidence of backward translation proteins being translated in Ribo-seq data.
 
 1. Download SRA file
 
