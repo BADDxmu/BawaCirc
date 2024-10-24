@@ -8,7 +8,7 @@ This software is suitable for all unix-like system with java (version 11.0.13) i
 Moreover, some already published softwares should be correctly installed in advance, and
 make sure they had been add to your system environment variables. The thirteen softwares are:<br>
   - [x](1) SRA-tools (version 3.0.0)<br>
-  (2) Trimmomatic (version 0.38)<br>
+  - [ ](2) Trimmomatic (version 0.38)<br>
   (3) IDBA (version 1.1.2)<br>
   (4) Gmap (version 2018-07-04)<br>
   (5) Cufflinks (version 2.2.1)<br>
