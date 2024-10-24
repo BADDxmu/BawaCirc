@@ -1,8 +1,9 @@
 The main sources of [BawaCirc](http://www.bio-add.org/BawaCirc) data come from three steps:
 ----
-* ⭐ Step 1: Search for circRNA and its corresponding ORFs.
+* ⭐ Step 1: Search for circRNAs and its corresponding ORFs.
 * ⭐ Step 2: Look for translation evidence of backward translation proteins in mass spectrometry data.
 * ⭐ Step 3: Searching for evidence of backward translation proteins being translated in Ribo-seq data.
+  
 ## Requirement
 ✨ This software is suitable for all unix-like system with java (version 11.0.13) installed.<br>
 Moreover, some already published softwares should be correctly installed in advance, and
