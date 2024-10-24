@@ -12,14 +12,14 @@ make sure they had been add to your system environment variables. The thirteen s
   (3) IDBA (version 1.1.2)<br>
   (4) Gmap (version 2018-07-04)<br>
   (5) Cufflinks (version 2.2.1)<br>
-  (6) Cirit (provided✔️)<br>
-  (7) trCirit (provided✔️)<br>
-  (8) translate.pl (provided✔️)<br>
+  (6) Cirit (provided ✔️)<br>
+  (7) trCirit (provided ✔️)<br>
+  (8) translate.pl (provided ✔️)<br>
   (8) Dotnet (version 2.1.818)<br>
   (9) MaxQuant (version 2.0.2.0)<br>
   (10) Bowtie2 (version 2.2.5)<br>
   (11) Samtools (version 1.3.1)<br>
   (12) Seqkit (version 2.3.0)<br>
   (13) Bamdst (version 1.0.9)<br>
-of course, for softwares mentioned above, other version is allowed. However, the pipeline operated
+🤔 of course, for softwares mentioned above, other version is allowed. However, the pipeline operated
 stably with the recommended version. <br>
