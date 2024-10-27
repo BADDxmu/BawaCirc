@@ -1,0 +1,2 @@
+HepG2.read1.fastq.gz filter=lfs diff=lfs merge=lfs -text
+HepG2.read2.fastq.gz filter=lfs diff=lfs merge=lfs -text
