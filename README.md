@@ -15,6 +15,7 @@ make sure they had been add to your system environment variables. The thirteen s
 * IDBA (version 1.1.2)<br>
 * Gmap (version 2018-07-04)<br>
 * Cufflinks (version 2.2.1)<br>
+* gffread<br>
 * Cirit (provided 🎉)<br>
 * trCirit (provided 🎉)<br>
 * translate.pl (provided 🎉)<br>
