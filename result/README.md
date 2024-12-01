@@ -2,4 +2,3 @@
 🔗 BT circRNAs sequences: http://www.bio-add.org/BawaCirc/files/download/transCirc_Bw.fa<br>
 🔗 BW ORFs sequences (NA): http://www.bio-add.org/BawaCirc/files/download/transOrf_Bw.fa<br>
 🔗 BT proteins sequences (AA): http://www.bio-add.org/BawaCirc/files/download/transPep_Bw.fa<br>
-🔗 HepG2 BT proteins sequences (AA): http://www.bio-add.org/BawaCirc/files/download/HepG2_transPep_Bw.fa<br>
