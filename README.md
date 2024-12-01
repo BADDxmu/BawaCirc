@@ -43,4 +43,9 @@ stably with the recommended version. <br>
   - `Cirit/`: circRNA identification algorithm.
   - `trCirit/`: Identify BSJ (back-splice junctions) and predict ORFs (open reading frames).
   - `translate.pl`: Translate nucleotide sequences into amino acid sequences.
+- **LICENSE**: under the Apache License 2.0.
 - **README.md**: A summary of the project, including setup and usage instructions.
+
+## License
+
+This project is licensed under the Apache License 2.0 - see the [LICENSE](LICENSE) file for details.
