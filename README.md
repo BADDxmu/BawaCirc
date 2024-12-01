@@ -1,4 +1,4 @@
-🚨 The backward translation circRNAs and  proteins are unpublished data and are not available for download at this time.<br>
+![image](https://github.com/user-attachments/assets/6cfabb5c-129d-4027-af6f-066f4117eb5b)🚨 The backward translation circRNAs and  proteins are unpublished data and are not available for download at this time.<br>
 
 The main sources of BawaCirc data come from three steps:
 ----
@@ -30,13 +30,17 @@ stably with the recommended version. <br>
 
 ## Directory Details
 
-- **scripts/**: Includes all scripts for data manipulation and analysis.
-  - `figures/`: The illustrations in step2.md
+- **doc/**: Project documentation.
+  - `png/`: The illustrations in step2.md
   - `Step1.md`: Search for circRNAs and its corresponding ORFs.
   - `Step2.md`: Look for translation evidence of backward translation proteins in mass spectrometry data.
   - `Step3.md`: Searching for evidence of backward translation proteins being translated in Ribo-seq data.
-- **example_files/**: Stores example files.
+- **example_file/**: Stores example files.
   - `README.md`: The download link for the example files.
-- **results/**: Stores analysis results.
+- **result/**: Stores analysis results.
   - `README.md`: The download link for the result files.
+- **software/**: Self-coded software download.
+  - `Cirit/`: circRNA identification algorithm.
+  - `trCirit/`: Identify BSJ (back-splice junctions) and predict ORFs (open reading frames).
+  - `translate.pl`: Translate nucleotide sequences into amino acid sequences.
 - **README.md**: A summary of the project, including setup and usage instructions.
