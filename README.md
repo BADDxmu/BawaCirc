@@ -27,3 +27,16 @@ make sure they had been add to your system environment variables. The thirteen s
 
 🤔 of course, for softwares mentioned above, other version is allowed. However, the pipeline operated
 stably with the recommended version. <br>
+
+## Directory Details
+
+- **data/**: Contains all data-related files.
+  - `raw/`: Original datasets in their unprocessed form.
+  - `processed/`: Cleaned and transformed data ready for analysis.
+- **scripts/**: Includes all scripts for data manipulation and analysis.
+  - `analysis.py`: Core analysis script.
+  - `preprocess.sh`: A shell script for data preprocessing.
+- **results/**: Stores analysis results.
+  - `figures/`: Visualizations, including plots and charts.
+- **docs/**: Project documentation.
+- **README.md**: A summary of the project, including setup and usage instructions.
