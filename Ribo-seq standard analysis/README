@@ -1,0 +1,6 @@
+merged_cds_rRNA_lincRNA.fa: fasta of human merging cds region and rRNA (download from NCBI),
+                            and lncRNA orf (download from rnacentral)
+scaffold.fa: circRNA backward translation orfs
+scaffold_waltz.gtf: annotaion file of scaffold.fa for ribowaltz analysis
+NEBNext_adapter.fa: adapter seq
+orf_Forward_db.fa: circRNA forward translation orfs
