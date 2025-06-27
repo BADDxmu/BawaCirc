@@ -30,7 +30,7 @@ cat rRNA.fa cds_from_genomic.fna forward_ORF.fa >remove.fa
 bowtie2-build remove.fa remove
 
 ###single-end
-bowtie2 --local -x ../remove/remove -U test.clean.fastq -S null --un test_remain.fq -p 80
+bowtie2 --local -x remove -U test.clean.fastq -S null --un test_remain.fq -p 80
 ```
 
 5. Align with the BW ORF sequences (the BW ORF needs to be reversed back to the normal sequence direction).
@@ -43,7 +43,7 @@ bowtie2-build backward_ORF.fa backward_ORF
 
 mkdir result_backward
 ###single-end
-bowtie2 --local -x ../backward/backward_ORF -U test_remain.fq -S result_backward/test_backward.sam --al result_backward/test_backward.fq -p 80
+bowtie2 --local -x backward_ORF -U test_remain.fq -S test_backward.sam --al test_backward.fq -p 80
 ```
 
 6. Convert SAM files to BAM files
