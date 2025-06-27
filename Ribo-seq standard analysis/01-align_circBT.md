@@ -17,15 +17,15 @@ bowtie-build orf_Forward_db.fa forward_orf_index/forward
 
 ```bash
 # circRNA backward translation reference
-!mkdir -p scaffold_index
-!bowtie-build scaffolf.fa scaffolod_index/scaffold
+mkdir -p scaffold_index
+bowtie-build scaffolf.fa scaffolod_index/scaffold
 ```
 
 ## **2. Remove reads which align to mRNA/rRNA/lncRNA reference and align reads to circRNA BT reference**
 
 ```bash
 # pre-processing
-java -jar trimmomatic-0.39.jar SE -threads 30 -phred33 SRR6838651.fastq.gz SRR6838651_clean.fastq ILLUMINACLIP:NEBNext_adapter.fa:2:30:10:2:True LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:25 TOPHRED33
+java -jar trimmomatic-0.38.jar SE -threads 30 -phred33 SRR6838651.fastq.gz SRR6838651_clean.fastq ILLUMINACLIP:NEBNext_adapter.fa:2:30:10:2:True LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:25 TOPHRED33
 ```
 
 ```bash
