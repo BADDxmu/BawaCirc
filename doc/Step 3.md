@@ -3,14 +3,13 @@
 1. Download SRA file
 
 ```bash
-prefetch SRRXXX -X 50G
+prefetch test -X 50G
 ```
 
 2. Split SRA file into single-end or paired-end FASTQ files
 
 ```bash
-cd SRRXXX
-fastq-dump -v --split-3 --gzip SRRXXX.sra*
+fastq-dump -v --split-3 --gzip test.sra*
 ```
 
 3. Adapter removal using Trimmomatic
