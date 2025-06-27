@@ -33,7 +33,7 @@ bowtie2-build remove.fa remove
 bowtie2 --local -x remove -U test.clean.fastq -S null --un test_remain.fq -p 80
 ```
 
-5. Align with the BW ORF sequences (the BW ORF needs to be reversed back to the normal sequence direction).
+5. Align with the BW-ORF sequences (the BW-ORF needs to be reversed back to the normal sequence direction).
 
 ```bash
 seqkit seq -r Rev_backward_ORF.fa >backward_ORF.fa 
