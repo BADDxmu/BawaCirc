@@ -1,1 +1,2 @@
-1
+- `IP-CIRCROLS.raw`: The dia files were generated using DIA-NN software. (http://www.bio-add.org/BawaCirc/files/download/IP-CIRCROLS.raw)
+- `result.xlsx`: table S11.
