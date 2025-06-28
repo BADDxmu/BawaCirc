@@ -29,7 +29,7 @@ make sure they had been add to your system environment variables. The thirteen s
 stably with the recommended version. <br>
 
 ## Directory Details
-- **Ribo-seq standard analysis/**: The standard Ribo-seq data analysis pipeline.
+- **`Ribo-seq standard analysis/`**: The standard Ribo-seq data analysis pipeline.
   - `01.align_circBT.md`: Align reads to circRNA BT reference.
   - `02-riboWaltz_SRR6838651`: Generating plots with the riboWaltz package.
   - `NEBNext_adapter.fa`: NEBNext adapter sequences.
@@ -38,22 +38,22 @@ stably with the recommended version. <br>
   - `reverse.py`: Reverse the reads of the raw Ribo-seq data.
   - `scaffold.fa`: CircRNA backward translation ORFs.
   - `scaffold_waltz.gtf`: Annotaion file of scaffold.fa for ribowaltz analysis.
-- **doc/**: Project documentation.
+- **`doc/`**: Project documentation.
   - `Ribo-seq/`: The reference sequences of the species used in Step 3.
   - `png/`: The illustrations in step2.md
   - `Step1.md`: Search for circRNAs and its corresponding ORFs.
   - `Step2.md`: Look for translation evidence of backward translation proteins in mass spectrometry data.
   - `Step3.md`: Searching for evidence of backward translation proteins being translated in Ribo-seq data.
-- **example_file/**: Stores example files.
+- **`example_file/`**: Stores example files.
   - `README.md`: The download link for the example files.
-- **result/**: Stores analysis results.
+- **`result/`**: Stores analysis results.
   - `README.md`: The download link for the result files.
-- **software/**: Self-coded software download.
+- **`software/`**: Self-coded software download.
   - `Cirit/`: circRNA identification algorithm.
   - `trCirit/`: Identify BSJ (back-splice junctions) and predict ORFs (open reading frames).
   - `translate.pl`: Translate nucleotide sequences into amino acid sequences.
-- **LICENSE**: under the Apache License 2.0.
-- **README.md**: A summary of the project, including setup and usage instructions.
+- **`LICENSE`**: under the Apache License 2.0.
+- **`README.md`**: A summary of the project, including setup and usage instructions.
 
 ## License
 
