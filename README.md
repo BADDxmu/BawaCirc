@@ -29,6 +29,8 @@ make sure they had been add to your system environment variables. The thirteen s
 stably with the recommended version. <br>
 
 ## Directory Details
+- **`IP/`**: Mass Spectrometry sample.
+  - `README.md`: Documentation.
 - **`Ribo-seq standard analysis/`**: The standard Ribo-seq data analysis pipeline.
   - `01.align_circBT.md`: Align reads to circRNA BT reference.
   - `02-riboWaltz_SRR6838651`: Generating plots with the riboWaltz package.
