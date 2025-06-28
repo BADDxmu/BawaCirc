@@ -39,6 +39,7 @@ stably with the recommended version. <br>
   - `scaffold.fa`: CircRNA backward translation ORFs.
   - `scaffold_waltz.gtf`: Annotaion file of scaffold.fa for ribowaltz analysis.
 - **doc/**: Project documentation.
+  - `Ribo-seq/`: the reference sequences of the species used in Step 3
   - `png/`: The illustrations in step2.md
   - `Step1.md`: Search for circRNAs and its corresponding ORFs.
   - `Step2.md`: Look for translation evidence of backward translation proteins in mass spectrometry data.
