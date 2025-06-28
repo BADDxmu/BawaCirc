@@ -1,0 +1,8 @@
+- `01.align_circBT.md`: Align reads to circRNA BT reference.
+- `02-riboWaltz_SRR6838651`: Generating plots with the riboWaltz package.
+- `NEBNext_adapter.fa`: NEBNext adapter sequences.
+- `README.md`: Documentation.
+- `orf_Forward_db.fa`: CircRNA forward translation ORFs.
+- `reverse.py`:
+- `scaffold.fa`: CircRNA backward translation ORFs.
+- `scaffold_waltz.gtf`: Annotaion file of scaffold.fa for ribowaltz analysis.
