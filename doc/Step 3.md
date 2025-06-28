@@ -21,14 +21,14 @@ test.fastq.gz test.clean.fastq \
 ILLUMINACLIP:TruSeq3-SE.fa:2:30:10:2:True LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:25 TOPHRED33
 ```
 
-4. Remove rRNAs (www.xxx.com) and other unwanted contaminants (such as mRNAs (https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/001/405/GCF_000001405.40_GRCh38.p14/GCF_000001405.40_GRCh38.p14_rna.fna.gz), ncRNAs(https://ftp.ebi.ac.uk/pub/databases/RNAcentral/current_release/sequences/rnacentral_species_specific_ids.fasta.gz) and circRNA forward ORFs (www.xxx.com)). Then, place the sequences into the “remove.fa” file and build the index. (www.xxx.com)
+4. Remove rRNAs (download from NCBI) and other unwanted contaminants (mRNAs (download from NCBI), ncRNAs(download from rnacentral) and circRNA forward ORFs). Then, place the sequences into the “remove.fa” file and build the index. (BawaCirc/doc/Ribo-seq/*/remove.fa)
 
 ```bash
 bowtie-build remove.fa remove
 bowtie -p 30 -v 1 remove test_clean.fastq --un test_unaligned.fq > /dev/null
 ```
 
-5. Alignment of the 25nt sequences flanking the BSJ of circRNA corresponding to the backward ORFs spanning the BSJ (A total of 50nt). (www.xxx.com)
+5. Alignment of the 25nt sequences flanking the BSJ of circRNA corresponding to the backward ORFs spanning the BSJ (A total of 50nt). (BawaCirc/doc/Ribo-seq/*/Backward_BSJ.fa)
 
 ```bash
 bowtie-build Backward_BSJ.fa Backward_BSJ
