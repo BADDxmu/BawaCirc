@@ -1,1 +1,1 @@
-The reference sequences of the six species utilized in Step 3 for Ribo-seq data processing.
+- `Ribo-seq/`: The reference sequences of the species used in Step 3.
