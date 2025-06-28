@@ -6,3 +6,4 @@
 - `reverse.py`: Reverse the reads of the raw Ribo-seq data.
 - `scaffold.fa`: CircRNA backward translation ORFs.
 - `scaffold_waltz.gtf`: Annotaion file of scaffold.fa for ribowaltz analysis.
+- `merged_cds_rRNA_lincRNA.fa`: fasta of human merging cds region and rRNA (download from NCBI), and lncRNA orf (download from rnacentral) (http://www.bio-add.org/BawaCirc/files/download/merged_cds_rRNA_lncRNA.fa)
