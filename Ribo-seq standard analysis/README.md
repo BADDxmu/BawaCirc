@@ -3,6 +3,6 @@
 - `NEBNext_adapter.fa`: NEBNext adapter sequences.
 - `README.md`: Documentation.
 - `orf_Forward_db.fa`: CircRNA forward translation ORFs.
-- `reverse.py`:
+- `reverse.py`: Reverse the reads of the raw Ribo-seq data.
 - `scaffold.fa`: CircRNA backward translation ORFs.
 - `scaffold_waltz.gtf`: Annotaion file of scaffold.fa for ribowaltz analysis.
