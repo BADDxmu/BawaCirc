@@ -1,1 +1,1 @@
-- `Ribo-seq/`: The reference sequences of the species used in Step 3.
+- `Ribo-seq/`: The reference sequences of the species used in step 3.
