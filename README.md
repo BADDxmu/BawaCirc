@@ -1,4 +1,4 @@
-🚨 The backward translation circRNAs and  proteins are unpublished data and are not available for download at this time.<br>
+🚨 The backward translation circRNAs and  proteins are unpublished data.<br>
 
 The main sources of BawaCirc data come from three steps:
 ----
