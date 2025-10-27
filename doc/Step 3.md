@@ -18,7 +18,7 @@ fastq-dump -v --split-3 --gzip test.sra*
 ###single-end
 java -jar trimmomatic-0.38.jar SE -threads 30 -phred33 \
 test.fastq.gz test.clean.fastq \
-ILLUMINACLIP:TruSeq3-SE.fa:2:30:10:2:True LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:25 TOPHRED33
+ILLUMINACLIP:adapter.fa:2:30:10:2:True LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:25 TOPHRED33
 ```
 
 4. Remove rRNAs (download from NCBI) and other unwanted contaminants (mRNAs (download from NCBI), ncRNAs(download from rnacentral) and circRNA forward ORFs). Then, place the sequences into the “remove.fa” file and build the index. (BawaCirc/doc/Ribo-seq/*/remove.fa)
@@ -48,9 +48,10 @@ samtools index test_backward_BSJ_sorted.bam
 7. Use mosdepth to analyze BAM files
 
 ```bash
-samtools faidx backward_ORF.fa
-cat backward_ORF.fa.fai | awk '{print $1"\t1\t"$2}' > backward.bed
+samtools faidx Backward_BSJ.fa
+cat Backward_BSJ.fa.fai | awk '{print $1"\t0\t"$2}' > Backward_BSJ.bed
+bamdst -p Backward_BSJ.bed test_backward_BSJ_sorted.bam -o bamdst_output
 
-mosdepth --by backward.bed test test_backward_sorted.bam --thresholds 1,2,5,10
+mosdepth --by Backward_BSJ.bed test test_backward_sorted.bam --thresholds 1,2,5,10
 ```
 
