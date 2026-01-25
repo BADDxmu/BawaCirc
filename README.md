@@ -23,12 +23,16 @@ make sure they had been add to your system environment variables. The thirteen s
 * Bowtie2 (version 2.2.5)<br>
 * Samtools (version 1.3.1)<br>
 * Seqkit (version 2.3.0)<br>
+* Bamdst (version 1.0.9)<br>
 * Mosdepth (version 0.3.10)<br>
 
 🤔 of course, for softwares mentioned above, other version is allowed. However, the pipeline operated
 stably with the recommended version. <br>
 
 ## Directory Details
+- **`REF/`**: Reference genome.
+  - `bed/`: A self-constructed reference genome BED file for CIRIT.
+  - `README.md`: Documentation.
 - **`IP/`**: Mass Spectrometry sample.
   - `README.md`: Documentation.
 - **`Ribo-seq standard analysis/`**: The standard Ribo-seq data analysis pipeline.
