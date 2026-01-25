@@ -50,8 +50,9 @@ samtools index test_backward_BSJ_sorted.bam
 ```bash
 samtools faidx Backward_BSJ.fa
 cat Backward_BSJ.fa.fai | awk '{print $1"\t0\t"$2}' > Backward_BSJ.bed
-bamdst -p Backward_BSJ.bed test_backward_BSJ_sorted.bam -o bamdst_output
 
+bamdst -p Backward_BSJ.bed test_backward_BSJ_sorted.bam -o bamdst_output
+###or###
 mosdepth --by Backward_BSJ.bed test test_backward_sorted.bam --thresholds 1,2,5,10
 ```
 
