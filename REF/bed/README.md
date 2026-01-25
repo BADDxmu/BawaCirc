@@ -1,0 +1,6 @@
+- `Yeast.bed` (http://www.bio-add.org/BawaCirc/files/download/Yeast.bed)
+- `Nematode.bed` (http://www.bio-add.org/BawaCirc/files/download/Nematode.bed)
+- `Fruit_fly.bed` (http://www.bio-add.org/BawaCirc/files/download/Fruit_fly.bed)
+- `Zebrafish.bed` (http://www.bio-add.org/BawaCirc/files/download/Zebrafish.bed)
+- `Mouse.bed` (http://www.bio-add.org/BawaCirc/files/download/Mouse.bed)
+- `chm13.bed` (http://www.bio-add.org/BawaCirc/files/download/chm13.bed)
