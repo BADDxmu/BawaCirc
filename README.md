@@ -11,7 +11,7 @@ The main sources of BawaCirc data come from three steps:
 Moreover, some already published softwares should be correctly installed in advance, and
 make sure they had been add to your system environment variables. The thirteen softwares are:<br>
 * SRA-tools (version 3.0.0)<br>
-* Trimmomatic (version 0.38)<br>
+* Trimmomatic (version 0.38/0.39)<br>
 * IDBA (version 1.1.2)<br>
 * Gmap (version 2018-07-04)<br>
 * Cufflinks (version 2.2.1)<br>
