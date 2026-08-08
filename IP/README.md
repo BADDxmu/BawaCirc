@@ -2,13 +2,23 @@
 - `result.xlsx`: table S5.
 
 
+
 dm.circROLS-BT Protein IP/Silver Staining and Mass Spectrometry Data
 
-Raw mass spectrometry data from dm.circROLS-BT protein immunoprecipitation (IP) and silver staining experiments in Drosophila mScarlet3 knock-in samples.
+Sample Information
 
-* 3HO: Whole-protein positive control
-* Y-1: IP protein positive control
-* Other samples: IP/silver staining samples
+The dataset contains raw mass spectrometry data generated from dm.circROLS-BT protein IP and silver staining experiments in Drosophila melanogaster mScarlet3 knock-in samples.
 
-The dataset includes the original mass spectrometry data generated from the IP/silver staining experiments.
+Sample	Description
+Y-4-3-3	IP/Silver staining
+Y-4-6-1	IP/Silver staining
+C-4-3-3	IP/Silver staining
+C-4-6-2	IP/Silver staining
+m-4-3-2	IP/Silver staining
+m-4-6-1	IP/Silver staining
+R-4-3-1	IP/Silver staining
+R-4-6-1	IP/Silver staining
+3HO	Whole-protein positive control
+Y-1	IP protein positive control
+
 (https://pan.baidu.com/s/1U3MoveW2VdySxY2xSs3HJw?pwd=7hus)
