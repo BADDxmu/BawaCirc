@@ -3,9 +3,10 @@
 
 
 
-dm.circROLS-BT Protein IP/Silver Staining and Mass Spectrometry Data (https://pan.baidu.com/s/1U3MoveW2VdySxY2xSs3HJw?pwd=7hus)
+dm.circROLS-BT Protein IP/Silver Staining and Mass Spectrometry Data
 
 Raw mass spectrometry data generated from dm.circROLS-BT protein IP and silver staining experiments in Drosophila melanogaster.
+(https://pan.baidu.com/s/1U3MoveW2VdySxY2xSs3HJw?pwd=7hus)
 
 Samples
 
